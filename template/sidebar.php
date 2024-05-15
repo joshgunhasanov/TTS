@@ -26,7 +26,7 @@
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="/reviews">Hesabat</a>
+                            <a class="nav-link text-uppercase" href="/reviews">Hesabatt</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-uppercase" href="/reviews">cIXIS</a>
