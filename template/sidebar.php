@@ -15,7 +15,7 @@
                 <div class="collapse navbar-collapse ps-2 pt-5" id="navbarNav">
                     <ul class="navbar-nav flex-lg-column text-lg-left">
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="./index.html">Rollar</a>
+                            <a class="nav-link text-uppercase" href="./index.html">istifadeciler</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-uppercase" href="/work">Statuslar</a>
