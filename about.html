@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TTS</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/scss/css/main.css">
+
+</head>
+<body>
+  <header class="d-none d-lg-block">
+    <nav class="navbar navbar-expand-lg flex-lg-column fixed-top shadow">
+      <div class="container flex-column">
+        <div>
+          <div>
+            <a class="mb-lg-4" href="#">
+              <img src="https://portal.edu.az/static/media/TNlogoColored_az_.ba5d19c2.svg" class="d-none d-lg-block" alt="">
+            </a>
+          </div>
+          <div class="collapse navbar-collapse ps-2 pt-5" id="navbarNav">
+            <ul class="navbar-nav flex-lg-column text-lg-left">
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="/about.html">İstİfadəçİlər</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="/services">Rollar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="/work">Statuslar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="/about.html">Tələbnamələr</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="/reviews">Hesabat</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="/reviews">cIXIS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div id="content-wrapper">
+    <div class="page__header d-flex shadow justify-content-between pt-3 pb-2 px-3 bg-white">
+      <div>
+        <h5 class="text-b1">TTS</h5>
+      </div>
+      <div class="d-flex align-items-center">
+        <div>
+          <h6 class="header-text">ALPAY ABDULLAYEV - TSII</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var currentUrl = window.location.href;
+      var navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+      navLinks.forEach(function(link) {
+        var linkUrl = link.getAttribute("href");
+        if (currentUrl.includes(linkUrl)) {
+          link.classList.add("active");
+        }
+      });
+    });
+  </script>
+</body>
+</html>
